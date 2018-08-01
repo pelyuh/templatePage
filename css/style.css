@@ -1,0 +1,39 @@
+/* GENERAL STYLES */
+body {
+	font-family: Arial, San-Serif;
+	font-size: 100%;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+
+/* HEADER */
+
+.header {
+	padding: 50px 0;
+	background-color: yellowgreen;
+}
+
+.header h1, .header h2 {
+	color: greenyellow;
+	text-align: center;
+}
+
+/* NAVIGATION */
+.page-navigation {
+	background-color: #222;
+	border-color: #9d9d9d;
+	min-height: 64px;
+}
+
+.page-navigation li {
+	float: left;
+	width: 100px;
+}
+
+.page-navigation a {
+
+}
