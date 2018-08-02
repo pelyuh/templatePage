@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>My First Page</title>
+		<title>templatePage</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -29,7 +29,7 @@
 
 				<!-- LOGIN FORM-->
 				<form action="#" class="login">
-					<input type="type" placeholder="login" required>
+					<input type="text" placeholder="login" required>
 					<input type="password" placeholder="password" required>
 					<input type="submit" value="Log In">
 				</form>
@@ -41,13 +41,13 @@
 
 		<!-- MAIN SECRION -->
 		<main>
-			<div>
-				<h2>Image Colections <small>Vizualize Quality</small></h2>
-				<div>
-					<div>
-						<div>
-							<img src="images/profile.jpg" alt="List picture" width="300" height="">
-							<div>
+			<div class="container">
+				<h2 class="collection-title">Image Colections <small>Vizualize Quality</small></h2>
+				<div class="collections">
+					<div class="collection-item-outer">
+						<div class="collection-item">
+							<img src="images/profile.jpg" alt="List picture">
+							<div class="collection-text">
 								<h3>List Elements Item</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -59,10 +59,10 @@
 							</div>
 						</div>
 					</div>
-					<div>
-						<div>
-							<img src="images/profile.jpg" alt="List picture" width="300" height="">
-							<div>
+					<div class="collection-item-outer">
+						<div class="collection-item">
+							<img src="images/profile.jpg" alt="List picture">
+							<div class="collection-text">
 								<h3>List Elements Item</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -74,10 +74,10 @@
 							</div>
 						</div>
 					</div>
-					<div>
-						<div>
-							<img src="images/profile.jpg" alt="List picture" width="300" height="">
-							<div>
+					<div class="collection-item-outer">
+						<div class="collection-item">
+							<img src="images/profile.jpg" alt="List picture">
+							<div class="collection-text">
 								<h3>List Elements Item</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -91,14 +91,14 @@
 					</div>
 				</div>
 
-				<h2>Video Colections <small>Vizualize Quality</small></h2>
-				<div>
-					<div>
-						<div>
+				<h2 class="collection-title">Video Colections <small>Vizualize Quality</small></h2>
+				<div class="collections">
+					<div class="collection-item-outer">
+						<div class="collection-item">
 							<video controls="">
 								<source src="video/movie.mp4" type="video/mp4">
 							</video>
-							<div>
+							<div class="collection-text">
 								<h3>List Elements Item</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -110,12 +110,12 @@
 							</div>
 						</div>
 					</div>
-					<div>
-						<div>
+					<div class="collection-item-outer">
+						<div class="collection-item">
 							<video controls="">
 								<source src="video/movie.mp4" type="video/mp4">
 							</video>
-							<div>
+							<div class="collection-text">
 								<h3>List Elements Item</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -127,12 +127,12 @@
 							</div>
 						</div>
 					</div>
-					<div>
-						<div>
+					<div class="collection-item-outer">
+						<div class="collection-item">
 							<video controls="">
 								<source src="video/movie.mp4" type="video/mp4">
 							</video>
-							<div>
+							<div class="collection-text">
 								<h3>List Elements Item</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -150,8 +150,8 @@
 		<!-- /MAIN SECRION -->
 
 		<!-- FOOTER -->
-		<footer>
-			<div>
+		<footer class="footer">
+			<div class="container">
 				<p>Copyring © Example.com 2018</p>
 			</div>
 		</footer>
